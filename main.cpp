@@ -18,14 +18,6 @@ int main()
       int y= j+1;
       int total= (x*y);
       Mtable[i][j]=total;
-/*      for(int x=1; x<=12; x++)
-      {
-        for(int y=1; y<=12; y++)
-        {
-          int total = (x*y);
-          Mtable[i][j]=total;
-        }
-      }*/
     }
   }
         for(int i=0; i< Mtable.size(); i++)
